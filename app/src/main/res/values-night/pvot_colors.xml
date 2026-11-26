@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+SPDX-FileCopyrightText: 2026 Saalim Quadri <danascape@gmail.com>
+SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <color name="primary_color">@color/pvot_primary_dark</color>
+    <color name="primary_color_dark">@color/pvot_surface_dark</color>
+    <color name="dialtacts_theme_color">@color/pvot_primary_dark</color>
+    <color name="people_app_theme_color">@color/pvot_primary_dark</color>
+    <color name="group_primary_color">@color/pvot_surface_dark</color>
+    <color name="group_primary_color_dark">@color/pvot_surface_dark</color>
+    <color name="actionbar_background_color">@color/pvot_surface_dark</color>
+    <color name="actionbar_text_color">@color/pvot_on_surface_dark</color>
+    <color name="actionbar_icon_color">@color/pvot_on_surface_dark</color>
+    <color name="action_bar_button_text_color">@color/pvot_on_surface_dark</color>
+    <color name="contacts_accent_color">@color/pvot_on_primary_dark</color>
+    <color name="primary_text_color">@color/pvot_on_surface_dark</color>
+    <color name="expanding_entry_card_button_text_color">@color/pvot_on_surface_dark</color>
+    <color name="quantum_black_text">@color/pvot_on_surface_dark</color>
+    <color name="quantum_black_secondary_text">@color/pvot_on_surface_variant_dark</color>
+    <color name="quantum_black_hint_text">@color/pvot_outline_dark</color>
+    <color name="quickcontact_entry_sub_header_text_color">@color/pvot_on_surface_variant_dark</color>
+    <color name="quickcontact_entry_header_text_color">@color/pvot_on_surface_dark</color>
+    <color name="contextual_selection_bar_color">@color/pvot_surface_variant_dark</color>
+    <color name="contextual_selection_bar_status_bar_color">@color/pvot_surface_variant_dark</color>
+    <color name="expanding_entry_card_background_color">@color/pvot_surface_variant_dark</color>
+    <color name="card_margin_color">@color/pvot_background_dark</color>
+    <color name="editor_icon_color">@color/pvot_on_surface_variant_dark</color>
+    <color name="editor_disabled_text_color">#40FFFFFF</color>
+    <color name="disabled_contact_list_name_text">#4DFFFFFF</color>
+    <color name="empty_state_background">@color/pvot_surface_variant_dark</color>
+    <color name="image_placeholder">@color/pvot_surface_variant_dark</color>
+    <color name="dialtacts_primary_text_color">@color/pvot_on_surface_dark</color>
+    <color name="dialtacts_secondary_text_color">@color/pvot_on_surface_variant_dark</color>
+    <color name="actionbar_icon_color_grey">#8CFFFFFF</color>
+    <color name="actionbar_text_color_black">@color/pvot_on_surface_dark</color>
+    <color name="actionbar_color_grey_solid">@color/pvot_outline_dark</color>
+    <color name="searchbox_text_color">@color/pvot_on_surface_dark</color>
+    <color name="searchbox_background_color">@color/pvot_surface_dark</color>
+    <color name="searchbox_hint_text_color">#66FFFFFF</color>
+    <color name="call_subject_history_icon">@color/pvot_on_surface_dark</color>
+    <color name="call_subject_divider">@color/pvot_outline_variant_dark</color>
+    <color name="call_subject_history_background">@color/pvot_surface_dark</color>
+    <color name="custom_filter_divider">@color/pvot_outline_variant_dark</color>
+    <color name="contacts_text_color">@color/pvot_on_surface_dark</color>
+    <color name="alert_background">@color/pvot_surface_variant_dark</color>
+    <color name="drawer_divider_color">@color/pvot_outline_variant_dark</color>
+    <color name="navigation_drawer_background_color">@color/pvot_surface_dark</color>
+    <color name="drawer_selected_color">@color/pvot_surface_variant_dark</color>
+    <color name="control_highlight_color">#1AFFFFFF</color>
+</resources>
