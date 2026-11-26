@@ -16,15 +16,12 @@
 
 package com.android.contacts.preference;
 
-import static android.Manifest.permission.SET_DEFAULT_ACCOUNT_FOR_CONTACTS;
-
 import android.accounts.Account;
 import android.app.backup.BackupManager;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
-import android.content.pm.PackageManager;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.StrictMode;
@@ -251,35 +248,8 @@ public class ContactsPreferences implements OnSharedPreferenceChangeListener {
         }
     }
 
-    private boolean hasSetDefaultAccountPermission() {
-        return mContext.checkSelfPermission(SET_DEFAULT_ACCOUNT_FOR_CONTACTS)
-                == PackageManager.PERMISSION_GRANTED;
-    }
-
     public void clearDefaultAccount() {
-        if (setDefaultAccountAndState(DefaultAccountAndState.ofNotSet())) {
-            mDefaultAccount = null;
-        }
-    }
-
-    @VisibleForTesting
-    public boolean setDefaultAccountAndState(DefaultAccountAndState defaultAccountAndState) {
-        if (hasSetDefaultAccountPermission()) {
-            StrictMode.ThreadPolicy oldPolicy = StrictMode.getThreadPolicy();
-            StrictMode.setThreadPolicy(
-                    new StrictMode.ThreadPolicy.Builder(oldPolicy)
-                            .permitDiskWrites()
-                            .permitDiskReads()
-                            .build());
-            try {
-                DefaultAccount.setDefaultAccountForNewContacts(
-                        mContext.getContentResolver(), defaultAccountAndState);
-            } finally {
-                StrictMode.setThreadPolicy(oldPolicy);
-            }
-            return true;
-        }
-        return false;
+        mDefaultAccount = null;
     }
 
     public void setDefaultAccountForTest(AccountWithDataSet account) {
