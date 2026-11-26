@@ -43,7 +43,7 @@
 
     <fragment
         android:id="@+id/drawer"
-        android:name="com.android.contacts.drawer.DrawerFragment"
+        android:name="org.prauga.contacts.drawer.DrawerFragment"
         android:layout_gravity="start"
         android:layout_width="@dimen/drawer_width"
         android:layout_height="match_parent" />

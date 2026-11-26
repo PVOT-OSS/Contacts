@@ -15,7 +15,7 @@
 -->
 
 <view
-    class="com.android.contacts.quickcontact.ExpandingEntryCardView$EntryView"
+    class="org.prauga.contacts.quickcontact.ExpandingEntryCardView$EntryView"
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/SelectableItem"
     android:layout_width="match_parent"

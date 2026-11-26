@@ -36,19 +36,19 @@
         android:key="customContactsFilter"
         android:title="@string/menu_contacts_filter"/>
 
-    <com.android.contacts.preference.SortOrderPreference
+    <org.prauga.contacts.preference.SortOrderPreference
         android:icon="@null"
         android:key="sortOrder"
         android:title="@string/display_options_sort_list_by"
         android:dialogTitle="@string/display_options_sort_list_by" />
 
-    <com.android.contacts.preference.DisplayOrderPreference
+    <org.prauga.contacts.preference.DisplayOrderPreference
         android:icon="@null"
         android:key="displayOrder"
         android:title="@string/display_options_view_names_as"
         android:dialogTitle="@string/display_options_view_names_as" />
 
-    <com.android.contacts.preference.PhoneticNameDisplayPreference
+    <org.prauga.contacts.preference.PhoneticNameDisplayPreference
         android:icon="@null"
         android:key="phoneticNameDisplay"
         android:title="@string/display_options_phonetic_name_fields"

@@ -1,4 +1,4 @@
--keep class com.android.contacts.model.Sources {
+-keep class org.prauga.contacts.model.Sources {
   public <init>(...);
 }
 
@@ -15,88 +15,88 @@
 }
 
 # Needed for tests
--keep class com.android.contacts.compat.CompatUtils { *; }
--keep class com.android.contacts.Collapser { *; }
--keep class com.android.contacts.ContactPhotoManager { *; }
--keep class com.android.contacts.ContactsApplication { *; }
--keep class com.android.contacts.ContactsUtils { *; }
--keep class com.android.contacts.ContactSaveService { *; }
--keep class com.android.contacts.ContactSaveService$* { *; }
--keep class com.android.contacts.database.NoNullCursorAsyncQueryHandler { *; }
--keep class com.android.contacts.database.SimContactDao { *; }
--keep class com.android.contacts.database.SimContactDao$* { *; }
--keep class com.android.contacts.database.SimContactDaoImpl { *; }
--keep class com.android.contacts.DynamicShortcuts { *; }
--keep class com.android.contacts.editor.ContactEditorUtils { *; }
--keep class com.android.contacts.editor.EditorUiUtils { *; }
--keep class com.android.contacts.format.FormatUtils { *; }
--keep class com.android.contacts.format.TextHighlighter { *; }
--keep class com.android.contacts.group.GroupUtil { *; }
--keep class com.android.contacts.interactions.ContactDeletionInteraction { *; }
--keep class com.android.contacts.interactions.ContactInteractionUtil { *; }
--keep class com.android.contacts.list.ContactListItemView { *; }
--keep class com.android.contacts.list.ContactsSectionIndexer { *; }
--keep class com.android.contacts.location.CountryDetector { *; }
--keep class com.android.contacts.model.account.AccountDisplayInfo { *; }
--keep class com.android.contacts.model.account.AccountDisplayInfoFactory { *; }
--keep class com.android.contacts.model.account.AccountInfo { *; }
--keep class com.android.contacts.model.account.AccountType { *; }
--keep class com.android.contacts.model.account.AccountType$* { *; }
--keep class com.android.contacts.model.account.AccountTypeWithDataSet { *; }
--keep class com.android.contacts.model.account.AccountWithDataSet { *; }
--keep class com.android.contacts.model.account.BaseAccountType { *; }
--keep class com.android.contacts.model.account.BaseAccountType$* { *; }
--keep class com.android.contacts.model.account.DeviceLocalAccountType { *; }
--keep class com.android.contacts.model.account.ExchangeAccountType { *; }
--keep class com.android.contacts.model.account.ExternalAccountType { *; }
--keep class com.android.contacts.model.account.FallbackAccountType { *; }
--keep class com.android.contacts.model.account.GoogleAccountType { *; }
--keep class com.android.contacts.model.account.SimAccountType { *; }
--keep class com.android.contacts.model.AccountTypeManager { *; }
--keep class com.android.contacts.model.AccountTypeManagerImpl { *; }
--keep class com.android.contacts.model.BuilderWrapper { *; }
--keep class com.android.contacts.model.Contact { *; }
--keep class com.android.contacts.model.ContactLoader { *; }
--keep class com.android.contacts.model.CPOWrapper { *; }
--keep class com.android.contacts.model.dataitem.DataItem { *; }
--keep class com.android.contacts.model.dataitem.DataKind { *; }
--keep class com.android.contacts.model.dataitem.EmailDataItem { *; }
--keep class com.android.contacts.model.dataitem.EventDataItem { *; }
--keep class com.android.contacts.model.dataitem.ImDataItem { *; }
--keep class com.android.contacts.model.dataitem.NicknameDataItem { *; }
--keep class com.android.contacts.model.dataitem.NoteDataItem { *; }
--keep class com.android.contacts.model.dataitem.OrganizationDataItem { *; }
--keep class com.android.contacts.model.dataitem.PhoneDataItem { *; }
--keep class com.android.contacts.model.dataitem.RelationDataItem { *; }
--keep class com.android.contacts.model.dataitem.SipAddressDataItem { *; }
--keep class com.android.contacts.model.dataitem.StructuredNameDataItem { *; }
--keep class com.android.contacts.model.dataitem.StructuredPostalDataItem { *; }
--keep class com.android.contacts.model.dataitem.WebsiteDataItem { *; }
--keep class com.android.contacts.model.DeviceLocalAccountLocator { *; }
--keep class com.android.contacts.model.RawContact { *; }
--keep class com.android.contacts.model.RawContactDelta { *; }
--keep class com.android.contacts.model.RawContactDeltaList { *; }
--keep class com.android.contacts.model.RawContactModifier { *; }
--keep class com.android.contacts.model.SimCard { *; }
--keep class com.android.contacts.model.SimContact { *; }
--keep class com.android.contacts.model.ValuesDelta { *; }
--keep class com.android.contacts.MoreContactUtils { *; }
--keep class com.android.contacts.preference.ContactsPreferences { *; }
--keep class com.android.contacts.SimImportService { *; }
--keep class com.android.contacts.SimImportService$* { *; }
--keep class com.android.contacts.test.mocks.MockContactPhotoManager { *; }
--keep class com.android.contacts.testing.InjectedServices { *; }
--keep class com.android.contacts.util.BitmapUtil { *; }
--keep class com.android.contacts.util.ContactDisplayUtils { *; }
--keep class com.android.contacts.util.DateUtils { *; }
--keep class com.android.contacts.util.DeviceLocalAccountTypeFactory { *; }
--keep class com.android.contacts.util.DeviceLocalAccountTypeFactory$* { *; }
--keep class com.android.contacts.util.NameConverter { *; }
--keep class com.android.contacts.util.PermissionsUtil { *; }
--keep class com.android.contacts.util.SearchUtil { *; }
--keep class com.android.contacts.util.SearchUtil$* { *; }
--keep class com.android.contacts.util.SyncUtil { *; }
--keep class com.android.contacts.widget.CompositeListAdapter { *; }
+-keep class org.prauga.contacts.compat.CompatUtils { *; }
+-keep class org.prauga.contacts.Collapser { *; }
+-keep class org.prauga.contacts.ContactPhotoManager { *; }
+-keep class org.prauga.contacts.ContactsApplication { *; }
+-keep class org.prauga.contacts.ContactsUtils { *; }
+-keep class org.prauga.contacts.ContactSaveService { *; }
+-keep class org.prauga.contacts.ContactSaveService$* { *; }
+-keep class org.prauga.contacts.database.NoNullCursorAsyncQueryHandler { *; }
+-keep class org.prauga.contacts.database.SimContactDao { *; }
+-keep class org.prauga.contacts.database.SimContactDao$* { *; }
+-keep class org.prauga.contacts.database.SimContactDaoImpl { *; }
+-keep class org.prauga.contacts.DynamicShortcuts { *; }
+-keep class org.prauga.contacts.editor.ContactEditorUtils { *; }
+-keep class org.prauga.contacts.editor.EditorUiUtils { *; }
+-keep class org.prauga.contacts.format.FormatUtils { *; }
+-keep class org.prauga.contacts.format.TextHighlighter { *; }
+-keep class org.prauga.contacts.group.GroupUtil { *; }
+-keep class org.prauga.contacts.interactions.ContactDeletionInteraction { *; }
+-keep class org.prauga.contacts.interactions.ContactInteractionUtil { *; }
+-keep class org.prauga.contacts.list.ContactListItemView { *; }
+-keep class org.prauga.contacts.list.ContactsSectionIndexer { *; }
+-keep class org.prauga.contacts.location.CountryDetector { *; }
+-keep class org.prauga.contacts.model.account.AccountDisplayInfo { *; }
+-keep class org.prauga.contacts.model.account.AccountDisplayInfoFactory { *; }
+-keep class org.prauga.contacts.model.account.AccountInfo { *; }
+-keep class org.prauga.contacts.model.account.AccountType { *; }
+-keep class org.prauga.contacts.model.account.AccountType$* { *; }
+-keep class org.prauga.contacts.model.account.AccountTypeWithDataSet { *; }
+-keep class org.prauga.contacts.model.account.AccountWithDataSet { *; }
+-keep class org.prauga.contacts.model.account.BaseAccountType { *; }
+-keep class org.prauga.contacts.model.account.BaseAccountType$* { *; }
+-keep class org.prauga.contacts.model.account.DeviceLocalAccountType { *; }
+-keep class org.prauga.contacts.model.account.ExchangeAccountType { *; }
+-keep class org.prauga.contacts.model.account.ExternalAccountType { *; }
+-keep class org.prauga.contacts.model.account.FallbackAccountType { *; }
+-keep class org.prauga.contacts.model.account.GoogleAccountType { *; }
+-keep class org.prauga.contacts.model.account.SimAccountType { *; }
+-keep class org.prauga.contacts.model.AccountTypeManager { *; }
+-keep class org.prauga.contacts.model.AccountTypeManagerImpl { *; }
+-keep class org.prauga.contacts.model.BuilderWrapper { *; }
+-keep class org.prauga.contacts.model.Contact { *; }
+-keep class org.prauga.contacts.model.ContactLoader { *; }
+-keep class org.prauga.contacts.model.CPOWrapper { *; }
+-keep class org.prauga.contacts.model.dataitem.DataItem { *; }
+-keep class org.prauga.contacts.model.dataitem.DataKind { *; }
+-keep class org.prauga.contacts.model.dataitem.EmailDataItem { *; }
+-keep class org.prauga.contacts.model.dataitem.EventDataItem { *; }
+-keep class org.prauga.contacts.model.dataitem.ImDataItem { *; }
+-keep class org.prauga.contacts.model.dataitem.NicknameDataItem { *; }
+-keep class org.prauga.contacts.model.dataitem.NoteDataItem { *; }
+-keep class org.prauga.contacts.model.dataitem.OrganizationDataItem { *; }
+-keep class org.prauga.contacts.model.dataitem.PhoneDataItem { *; }
+-keep class org.prauga.contacts.model.dataitem.RelationDataItem { *; }
+-keep class org.prauga.contacts.model.dataitem.SipAddressDataItem { *; }
+-keep class org.prauga.contacts.model.dataitem.StructuredNameDataItem { *; }
+-keep class org.prauga.contacts.model.dataitem.StructuredPostalDataItem { *; }
+-keep class org.prauga.contacts.model.dataitem.WebsiteDataItem { *; }
+-keep class org.prauga.contacts.model.DeviceLocalAccountLocator { *; }
+-keep class org.prauga.contacts.model.RawContact { *; }
+-keep class org.prauga.contacts.model.RawContactDelta { *; }
+-keep class org.prauga.contacts.model.RawContactDeltaList { *; }
+-keep class org.prauga.contacts.model.RawContactModifier { *; }
+-keep class org.prauga.contacts.model.SimCard { *; }
+-keep class org.prauga.contacts.model.SimContact { *; }
+-keep class org.prauga.contacts.model.ValuesDelta { *; }
+-keep class org.prauga.contacts.MoreContactUtils { *; }
+-keep class org.prauga.contacts.preference.ContactsPreferences { *; }
+-keep class org.prauga.contacts.SimImportService { *; }
+-keep class org.prauga.contacts.SimImportService$* { *; }
+-keep class org.prauga.contacts.test.mocks.MockContactPhotoManager { *; }
+-keep class org.prauga.contacts.testing.InjectedServices { *; }
+-keep class org.prauga.contacts.util.BitmapUtil { *; }
+-keep class org.prauga.contacts.util.ContactDisplayUtils { *; }
+-keep class org.prauga.contacts.util.DateUtils { *; }
+-keep class org.prauga.contacts.util.DeviceLocalAccountTypeFactory { *; }
+-keep class org.prauga.contacts.util.DeviceLocalAccountTypeFactory$* { *; }
+-keep class org.prauga.contacts.util.NameConverter { *; }
+-keep class org.prauga.contacts.util.PermissionsUtil { *; }
+-keep class org.prauga.contacts.util.SearchUtil { *; }
+-keep class org.prauga.contacts.util.SearchUtil$* { *; }
+-keep class org.prauga.contacts.util.SyncUtil { *; }
+-keep class org.prauga.contacts.widget.CompositeListAdapter { *; }
 -keep class com.google.common.base.Function { *; }
 -keep class com.google.common.base.Functions { *; }
 -keep class com.google.common.base.Objects { *; }
@@ -108,11 +108,11 @@
 
 # Any class or method annotated with NeededForReflection.
 # TODO(b/373579455): Evaluate if <init> needs to be kept.
--keep @com.android.contacts.test.NeededForReflection class * {
+-keep @org.prauga.contacts.test.NeededForReflection class * {
   void <init>();
 }
 -keepclassmembers class * {
-  @com.android.contacts.test.NeededForReflection *;
+  @org.prauga.contacts.test.NeededForReflection *;
 }
 
 # Keep classes and methods that have the guava @VisibleForTesting annotation

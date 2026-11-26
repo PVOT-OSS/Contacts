@@ -17,7 +17,7 @@
 
 <!-- Editor for a single event entry in the contact editor -->
 
-<com.android.contacts.editor.EventFieldEditorView
+<org.prauga.contacts.editor.EventFieldEditorView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -45,4 +45,4 @@
         layout="@layout/edit_delete_button"
         android:visibility="gone" />
 
-</com.android.contacts.editor.EventFieldEditorView>
+</org.prauga.contacts.editor.EventFieldEditorView>

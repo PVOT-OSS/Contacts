@@ -91,18 +91,18 @@
     </application>
 
     <instrumentation android:name="androidx.test.runner.AndroidJUnitRunner"
-        android:targetPackage="com.android.contacts"
+        android:targetPackage="org.prauga.contacts"
         android:label="Contacts app tests">
     </instrumentation>
 
-    <instrumentation android:name="com.android.contacts.ContactsLaunchPerformance"
-        android:targetPackage="com.android.contacts"
+    <instrumentation android:name="org.prauga.contacts.ContactsLaunchPerformance"
+        android:targetPackage="org.prauga.contacts"
         android:label="Contacts launch performance">
     </instrumentation>
 
     <instrumentation
-        android:name="com.android.contacts.RunMethodInstrumentation"
-        android:targetPackage="com.android.contacts"
+        android:name="org.prauga.contacts.RunMethodInstrumentation"
+        android:targetPackage="org.prauga.contacts"
         android:label="Run Contacts Method">
     </instrumentation>
 

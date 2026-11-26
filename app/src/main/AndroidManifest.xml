@@ -16,8 +16,6 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <original-package android:name="com.android.contacts"/>
-
     <!-- Contacts permission listed first because order determines
          order that permissions are requested with some OEMs -->
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
@@ -57,7 +55,7 @@
         android:required="false"/>
 
     <application
-        android:name="com.android.contacts.ContactsApplication"
+        android:name="org.prauga.contacts.ContactsApplication"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/applicationLabel"
@@ -403,7 +401,7 @@
 
         <!-- Keep support for apps that expect the Compact editor -->
         <activity-alias
-            android:name="com.android.contacts.activities.CompactContactEditorActivity"
+            android:name="org.prauga.contacts.activities.CompactContactEditorActivity"
             android:exported="true"
             android:targetActivity=".activities.ContactEditorActivity">
             <intent-filter android:priority="-1">
@@ -535,7 +533,7 @@
              we don't want this to show up in the Launcher. The priorities of the intent-filters
              are set lower, so that the user does not see a disambig dialog -->
         <activity
-            android:name="com.android.contacts.NonPhoneActivity"
+            android:name="org.prauga.contacts.NonPhoneActivity"
             android:exported="true"
             android:theme="@style/NonPhoneActivityTheme">
             <intent-filter android:priority="-1">
@@ -563,7 +561,7 @@
         </activity>
 
         <activity
-            android:name="com.android.contacts.dialog.CallSubjectDialog"
+            android:name="org.prauga.contacts.dialog.CallSubjectDialog"
             android:theme="@style/Theme.CallSubjectDialogTheme"
             android:exported="false"
             android:windowSoftInputMode="stateVisible|adjustResize">
@@ -591,7 +589,7 @@
 
         <!-- Service used to run JobScheduler jobs -->
         <service
-            android:name="com.android.contacts.ContactsJobService"
+            android:name="org.prauga.contacts.ContactsJobService"
             android:permission="android.permission.BIND_JOB_SERVICE"/>
 
         <provider
@@ -609,7 +607,7 @@
             android:value="true"/>
 
         <provider
-            android:name="com.android.contacts.sdn.SdnProvider"
+            android:name="org.prauga.contacts.sdn.SdnProvider"
             android:authorities="@string/contacts_sdn_provider_authority"
             android:enabled="true"
             android:exported="true"

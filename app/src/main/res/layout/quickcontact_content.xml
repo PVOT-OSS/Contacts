@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.contacts.widget.TouchlessScrollView
+<org.prauga.contacts.widget.TouchlessScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:cardview="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -30,31 +30,31 @@
         android:paddingTop="@dimen/first_card_marginTop"
         android:id="@+id/card_container" >
 
-        <com.android.contacts.quickcontact.ExpandingEntryCardView
+        <org.prauga.contacts.quickcontact.ExpandingEntryCardView
             style="@style/ExpandingEntryCardStyle"
             android:id="@+id/no_contact_data_card"
             android:visibility="gone"
             cardview:cardCornerRadius="@dimen/expanding_entry_card_card_corner_radius" />
 
-        <com.android.contacts.quickcontact.ExpandingEntryCardView
+        <org.prauga.contacts.quickcontact.ExpandingEntryCardView
             style="@style/ExpandingEntryCardStyle"
             android:id="@+id/communication_card"
             android:visibility="gone"
             cardview:cardCornerRadius="@dimen/expanding_entry_card_card_corner_radius" />
 
-        <com.android.contacts.quickcontact.ExpandingEntryCardView
+        <org.prauga.contacts.quickcontact.ExpandingEntryCardView
             style="@style/ExpandingEntryCardStyle"
             android:id="@+id/recent_card"
             android:visibility="gone"
             cardview:cardCornerRadius="@dimen/expanding_entry_card_card_corner_radius" />
 
-        <com.android.contacts.quickcontact.ExpandingEntryCardView
+        <org.prauga.contacts.quickcontact.ExpandingEntryCardView
             style="@style/ExpandingEntryCardStyle"
             android:id="@+id/permission_explanation_card"
             android:visibility="gone"
             cardview:cardCornerRadius="@dimen/expanding_entry_card_card_corner_radius"/>
 
-        <com.android.contacts.quickcontact.ExpandingEntryCardView
+        <org.prauga.contacts.quickcontact.ExpandingEntryCardView
             style="@style/ExpandingEntryCardStyle"
             android:id="@+id/about_card"
             android:visibility="gone"
@@ -65,4 +65,4 @@
 
     </LinearLayout>
 
-</com.android.contacts.widget.TouchlessScrollView>
+</org.prauga.contacts.widget.TouchlessScrollView>

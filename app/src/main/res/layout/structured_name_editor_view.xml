@@ -15,7 +15,7 @@
   limitations under the License.
   -->
 
-<com.android.contacts.editor.StructuredNameEditorView
+<org.prauga.contacts.editor.StructuredNameEditorView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -50,4 +50,4 @@
         layout="@layout/edit_delete_button"
         android:visibility="gone"/>
 
-</com.android.contacts.editor.StructuredNameEditorView>
+</org.prauga.contacts.editor.StructuredNameEditorView>

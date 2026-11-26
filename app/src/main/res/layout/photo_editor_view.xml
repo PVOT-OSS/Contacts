@@ -15,14 +15,14 @@
      limitations under the License.
 -->
 
-<com.android.contacts.editor.PhotoEditorView
+<org.prauga.contacts.editor.PhotoEditorView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/photo_editor"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal">
 
-    <com.android.contacts.widget.QuickContactImageView
+    <org.prauga.contacts.widget.QuickContactImageView
             android:id="@+id/photo"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -54,4 +54,4 @@
             android:background="@drawable/item_background_material_dark"
             android:contentDescription="@string/editor_change_photo_content_description" />
 
-</com.android.contacts.editor.PhotoEditorView>
+</org.prauga.contacts.editor.PhotoEditorView>

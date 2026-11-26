@@ -8,12 +8,12 @@ plugins {
 }
 
 android {
-    namespace = "com.android.contacts"
-    testNamespace = "com.android.contacts.tests"
+    namespace = "org.prauga.contacts"
+    testNamespace = "org.prauga.contacts.tests"
     compileSdk { version = release(37) }
 
     defaultConfig {
-        applicationId = "com.android.contacts"
+        applicationId = "org.prauga.contacts"
         minSdk = 36
         targetSdk = 36
         versionCode = 10734

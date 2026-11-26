@@ -29,7 +29,7 @@
         android:fadingEdge="none"
         android:fillViewport="true">
 
-        <com.android.contacts.editor.RawContactEditorView
+        <org.prauga.contacts.editor.RawContactEditorView
             android:id="@+id/raw_contacts_editor_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
 
             <include layout="@layout/contact_editor_fields" />
 
-        </com.android.contacts.editor.RawContactEditorView>
+        </org.prauga.contacts.editor.RawContactEditorView>
 
     </ScrollView>
 </FrameLayout>

@@ -7,7 +7,7 @@
         errorLine1="        for (PhoneAccountHandle handle : tm.getCallCapablePhoneAccounts()) {"
         errorLine2="                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/CallUtil.java"
+            file="src/main/java/org/prauga/contacts/CallUtil.java"
             line="203"
             column="42"/>
     </issue>
@@ -18,7 +18,7 @@
         errorLine1="            return new SimCard(telephony.getSimSerialNumber(), telephony.getSubscriptionId(),"
         errorLine2="                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/model/SimCard.java"
+            file="src/main/java/org/prauga/contacts/model/SimCard.java"
             line="244"
             column="32"/>
     </issue>
@@ -29,7 +29,7 @@
         errorLine1="                    telephony.getSimOperatorName(), displayLabel, telephony.getLine1Number(),"
         errorLine2="                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/model/SimCard.java"
+            file="src/main/java/org/prauga/contacts/model/SimCard.java"
             line="245"
             column="67"/>
     </issue>
@@ -40,7 +40,7 @@
         errorLine1="        final List&lt;SubscriptionInfo> subscriptions = subscriptionManager"
         errorLine2="                                                     ^">
         <location
-            file="src/main/java/com/android/contacts/database/SimContactDaoImpl.java"
+            file="src/main/java/org/prauga/contacts/database/SimContactDaoImpl.java"
             line="245"
             column="54"/>
     </issue>
@@ -51,7 +51,7 @@
         errorLine1="            telecomManager.placeCall(intent.getData(), intent.getExtras());"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/compat/telecom/TelecomManagerCompat.java"
+            file="src/main/java/org/prauga/contacts/compat/telecom/TelecomManagerCompat.java"
             line="43"
             column="13"/>
     </issue>
@@ -62,7 +62,7 @@
         errorLine1="            return telephonyManager.getDeviceId(slotId);"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/compat/TelephonyManagerCompat.java"
+            file="src/main/java/org/prauga/contacts/compat/TelephonyManagerCompat.java"
             line="93"
             column="20"/>
     </issue>
@@ -73,7 +73,7 @@
         errorLine1="        final String voiceMailLabel = telephonyManager.getVoiceMailAlphaTag();"
         errorLine2="                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/util/TelephonyManagerUtils.java"
+            file="src/main/java/org/prauga/contacts/util/TelephonyManagerUtils.java"
             line="39"
             column="39"/>
     </issue>
@@ -84,7 +84,7 @@
         errorLine1="    public void onBackPressed() {"
         errorLine2="                ~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/activities/ContactEditorActivity.java"
+            file="src/main/java/org/prauga/contacts/activities/ContactEditorActivity.java"
             line="410"
             column="17"/>
     </issue>
@@ -95,7 +95,7 @@
         errorLine1="    public void requestLayout() {"
         errorLine2="                ~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/list/ContactListItemView.java"
+            file="src/main/java/org/prauga/contacts/list/ContactListItemView.java"
             line="1840"
             column="17"/>
     </issue>
@@ -106,7 +106,7 @@
         errorLine1="    protected void onFinishInflate() {"
         errorLine2="                   ~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/editor/LabeledEditorView.java"
+            file="src/main/java/org/prauga/contacts/editor/LabeledEditorView.java"
             line="138"
             column="20"/>
     </issue>
@@ -117,7 +117,7 @@
         errorLine1="    public void requestLayout() {"
         errorLine2="                ~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/widget/LayoutSuppressingImageView.java"
+            file="src/main/java/org/prauga/contacts/widget/LayoutSuppressingImageView.java"
             line="36"
             column="17"/>
     </issue>
@@ -128,19 +128,19 @@
         errorLine1="    public void requestLayout() {"
         errorLine2="                ~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/widget/LayoutSuppressingQuickContactBadge.java"
+            file="src/main/java/org/prauga/contacts/widget/LayoutSuppressingQuickContactBadge.java"
             line="36"
             column="17"/>
     </issue>
 
     <issue
         id="MissingClass"
-        message="Class referenced in the manifest, `com.android.contacts.test.FragmentTestActivity`, was not found in the project or the libraries"
+        message="Class referenced in the manifest, `org.prauga.contacts.test.FragmentTestActivity`, was not found in the project or the libraries"
         errorLine1="        &lt;activity android:name=&quot;.test.FragmentTestActivity&quot;"
         errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/AndroidManifest.xml"
-            line="434"
+            line="432"
             column="33"/>
     </issue>
 
@@ -183,7 +183,7 @@
         errorLine1="    public void onBackPressed() {"
         errorLine2="                ~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/activities/ContactEditorActivity.java"
+            file="src/main/java/org/prauga/contacts/activities/ContactEditorActivity.java"
             line="410"
             column="17"/>
     </issue>
@@ -194,7 +194,7 @@
         errorLine1="    public void onBackPressed() {"
         errorLine2="                ~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/activities/ContactSelectionActivity.java"
+            file="src/main/java/org/prauga/contacts/activities/ContactSelectionActivity.java"
             line="744"
             column="17"/>
     </issue>
@@ -205,7 +205,7 @@
         errorLine1="    public void onBackPressed() {"
         errorLine2="                ~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/preference/ContactsPreferenceActivity.java"
+            file="src/main/java/org/prauga/contacts/preference/ContactsPreferenceActivity.java"
             line="189"
             column="17"/>
     </issue>
@@ -216,7 +216,7 @@
         errorLine1="    public void onBackPressed() {"
         errorLine2="                ~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/list/CustomContactListFilterActivity.java"
+            file="src/main/java/org/prauga/contacts/list/CustomContactListFilterActivity.java"
             line="957"
             column="17"/>
     </issue>
@@ -227,7 +227,7 @@
         errorLine1="            if (keyCode == KeyEvent.KEYCODE_BACK) {"
         errorLine2="                           ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/activities/PeopleActivity.java"
+            file="src/main/java/org/prauga/contacts/activities/PeopleActivity.java"
             line="773"
             column="28"/>
     </issue>
@@ -238,7 +238,7 @@
         errorLine1="    public void onBackPressed() {"
         errorLine2="                ~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/activities/PeopleActivity.java"
+            file="src/main/java/org/prauga/contacts/activities/PeopleActivity.java"
             line="794"
             column="17"/>
     </issue>
@@ -249,7 +249,7 @@
         errorLine1="    public void onBackPressed() {"
         errorLine2="                ~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/quickcontact/QuickContactActivity.java"
+            file="src/main/java/org/prauga/contacts/quickcontact/QuickContactActivity.java"
             line="2430"
             column="17"/>
     </issue>
@@ -260,7 +260,7 @@
         errorLine1="            sLetterToTileRatio = res.getFraction(R.dimen.letter_to_tile_ratio, 1, 1);"
         errorLine2="                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/lettertiles/LetterTileDrawable.java"
+            file="src/main/java/org/prauga/contacts/lettertiles/LetterTileDrawable.java"
             line="83"
             column="50"/>
     </issue>
@@ -271,7 +271,7 @@
         errorLine1="            mWakeLock = powerManager.newWakeLock("
         errorLine2="                        ^">
         <location
-            file="src/main/java/com/android/contacts/vcard/ImportVCardActivity.java"
+            file="src/main/java/org/prauga/contacts/vcard/ImportVCardActivity.java"
             line="196"
             column="25"/>
     </issue>
@@ -282,7 +282,7 @@
         errorLine1="                ? cursor.getString(cursor.getColumnIndex(Contacts.DISPLAY_NAME)) : null;"
         errorLine2="                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/list/ContactListItemView.java"
+            file="src/main/java/org/prauga/contacts/list/ContactListItemView.java"
             line="1623"
             column="36"/>
     </issue>
@@ -293,7 +293,7 @@
         errorLine1="        return cursor.getString(cursor.getColumnIndex(columnName));"
         errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/util/DataStatus.java"
+            file="src/main/java/org/prauga/contacts/util/DataStatus.java"
             line="145"
             column="33"/>
     </issue>
@@ -304,7 +304,7 @@
         errorLine1="        return cursor.getInt(cursor.getColumnIndex(columnName));"
         errorLine2="                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/util/DataStatus.java"
+            file="src/main/java/org/prauga/contacts/util/DataStatus.java"
             line="149"
             column="30"/>
     </issue>
@@ -315,7 +315,7 @@
         errorLine1="        return cursor.isNull(cursor.getColumnIndex(columnName));"
         errorLine2="                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/util/DataStatus.java"
+            file="src/main/java/org/prauga/contacts/util/DataStatus.java"
             line="163"
             column="30"/>
     </issue>
@@ -326,7 +326,7 @@
         errorLine1="                return cursor.getString(cursor.getColumnIndex(OpenableColumns.DISPLAY_NAME));"
         errorLine2="                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/vcard/ExportVCardActivity.java"
+            file="src/main/java/org/prauga/contacts/vcard/ExportVCardActivity.java"
             line="238"
             column="41"/>
     </issue>
@@ -337,7 +337,7 @@
         errorLine1="        } else {"
         errorLine2="               ^">
         <location
-            file="src/main/java/com/android/contacts/quickcontact/QuickContactActivity.java"
+            file="src/main/java/org/prauga/contacts/quickcontact/QuickContactActivity.java"
             line="2568"
             column="16"/>
     </issue>
@@ -348,7 +348,7 @@
         errorLine1="            createContactShortcutIntent(mUri, mContentType, mDisplayName, mLookupKey, mBitmapData);"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/ShortcutIntentBuilder.java"
+            file="src/main/java/org/prauga/contacts/ShortcutIntentBuilder.java"
             line="218"
             column="13"/>
     </issue>
@@ -359,7 +359,7 @@
         errorLine1="            createPhoneNumberShortcutIntent(mUri, mDisplayName, mLookupKey, mBitmapData,"
         errorLine2="            ^">
         <location
-            file="src/main/java/com/android/contacts/ShortcutIntentBuilder.java"
+            file="src/main/java/org/prauga/contacts/ShortcutIntentBuilder.java"
             line="255"
             column="13"/>
     </issue>
@@ -370,7 +370,7 @@
         errorLine1="            return DirectoryCompat.isEnterpriseDirectoryId(directoryId) ? USER_TYPE_WORK"
         errorLine2="                                                                          ~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactsUtils.java"
+            file="src/main/java/org/prauga/contacts/ContactsUtils.java"
             line="258"
             column="75"/>
     </issue>
@@ -381,7 +381,7 @@
         errorLine1="                    : USER_TYPE_CURRENT;"
         errorLine2="                      ~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactsUtils.java"
+            file="src/main/java/org/prauga/contacts/ContactsUtils.java"
             line="259"
             column="23"/>
     </issue>
@@ -392,7 +392,7 @@
         errorLine1="            return USER_TYPE_WORK;"
         errorLine2="                   ~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactsUtils.java"
+            file="src/main/java/org/prauga/contacts/ContactsUtils.java"
             line="264"
             column="20"/>
     </issue>
@@ -403,7 +403,7 @@
         errorLine1="            return USER_TYPE_CURRENT;"
         errorLine2="                   ~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactsUtils.java"
+            file="src/main/java/org/prauga/contacts/ContactsUtils.java"
             line="266"
             column="20"/>
     </issue>
@@ -448,7 +448,7 @@
         errorLine2="            ^">
         <location
             file="src/main/AndroidManifest.xml"
-            line="78"
+            line="76"
             column="13"/>
     </issue>
 
@@ -459,7 +459,7 @@
         errorLine2="            ^">
         <location
             file="src/main/AndroidManifest.xml"
-            line="541"
+            line="539"
             column="13"/>
     </issue>
 
@@ -470,7 +470,7 @@
         errorLine2="        ^">
         <location
             file="src/main/AndroidManifest.xml"
-            line="565"
+            line="563"
             column="9"/>
     </issue>
 
@@ -492,7 +492,7 @@
         errorLine2="                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/AndroidManifest.xml"
-            line="27"
+            line="25"
             column="22"/>
     </issue>
 
@@ -502,7 +502,7 @@
         errorLine1="public class CheckableImageView extends ImageView implements Checkable {"
         errorLine2="                                        ~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/quickcontact/CheckableImageView.java"
+            file="src/main/java/org/prauga/contacts/quickcontact/CheckableImageView.java"
             line="29"
             column="41"/>
     </issue>
@@ -513,7 +513,7 @@
         errorLine1="public class ContactListPinnedHeaderView extends TextView {"
         errorLine2="                                                 ~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/list/ContactListPinnedHeaderView.java"
+            file="src/main/java/org/prauga/contacts/list/ContactListPinnedHeaderView.java"
             line="33"
             column="50"/>
     </issue>
@@ -524,7 +524,7 @@
         errorLine1="public class LayoutSuppressingImageView extends ImageView {"
         errorLine2="                                                ~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/widget/LayoutSuppressingImageView.java"
+            file="src/main/java/org/prauga/contacts/widget/LayoutSuppressingImageView.java"
             line="29"
             column="49"/>
     </issue>
@@ -535,7 +535,7 @@
         errorLine1="public class NotifyingSpinner extends Spinner {"
         errorLine2="                                      ~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/widget/NotifyingSpinner.java"
+            file="src/main/java/org/prauga/contacts/widget/NotifyingSpinner.java"
             line="27"
             column="39"/>
     </issue>
@@ -546,7 +546,7 @@
         errorLine1="public class QuickContactImageView extends ImageView {"
         errorLine2="                                           ~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/widget/QuickContactImageView.java"
+            file="src/main/java/org/prauga/contacts/widget/QuickContactImageView.java"
             line="22"
             column="44"/>
     </issue>
@@ -557,7 +557,7 @@
         errorLine1="            ResultReceiver receiver) {"
         errorLine2="            ~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1253"
             column="13"/>
     </issue>
@@ -568,7 +568,7 @@
         errorLine1="        final ResultReceiver receiver = intent.getParcelableExtra(EXTRA_RESULT_RECEIVER);"
         errorLine2="              ~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1277"
             column="15"/>
     </issue>
@@ -579,7 +579,7 @@
         errorLine1="                receiver.send(BAD_ARGUMENTS, new Bundle());"
         errorLine2="                         ~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1282"
             column="26"/>
     </issue>
@@ -590,7 +590,7 @@
         errorLine1="                            receiver.send(CP2_ERROR, new Bundle());"
         errorLine2="                                     ~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1295"
             column="38"/>
     </issue>
@@ -601,7 +601,7 @@
         errorLine1="                receiver.send(CP2_ERROR, new Bundle());"
         errorLine2="                         ~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1304"
             column="26"/>
     </issue>
@@ -612,7 +612,7 @@
         errorLine1="            receiver.send(CONTACTS_SPLIT, new Bundle());"
         errorLine2="                     ~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1311"
             column="22"/>
     </issue>
@@ -623,7 +623,7 @@
         errorLine1="            ResultReceiver receiver) {"
         errorLine2="            ~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1371"
             column="13"/>
     </issue>
@@ -634,7 +634,7 @@
         errorLine1="        final ResultReceiver receiver = intent.getParcelableExtra(EXTRA_RESULT_RECEIVER);"
         errorLine2="              ~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1418"
             column="15"/>
     </issue>
@@ -645,7 +645,7 @@
         errorLine1="                receiver.send(BAD_ARGUMENTS, new Bundle());"
         errorLine2="                         ~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1426"
             column="26"/>
     </issue>
@@ -656,7 +656,7 @@
         errorLine1="                            receiver.send(CP2_ERROR, new Bundle());"
         errorLine2="                                     ~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1445"
             column="38"/>
     </issue>
@@ -667,7 +667,7 @@
         errorLine1="                receiver.send(CP2_ERROR, new Bundle());"
         errorLine2="                         ~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1455"
             column="26"/>
     </issue>
@@ -678,7 +678,7 @@
         errorLine1="                receiver.send(CONTACTS_LINKED, result);"
         errorLine2="                         ~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1467"
             column="26"/>
     </issue>
@@ -689,7 +689,7 @@
         errorLine1="                receiver.send(CP2_ERROR, new Bundle());"
         errorLine2="                         ~~~~">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1479"
             column="26"/>
     </issue>
@@ -700,7 +700,7 @@
         errorLine1="            compatIcon.addToShortcutIntent(intent, null, mContext);"
         errorLine2="                       ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/ShortcutIntentBuilder.java"
+            file="src/main/java/org/prauga/contacts/ShortcutIntentBuilder.java"
             line="303"
             column="24"/>
     </issue>
@@ -711,7 +711,7 @@
         errorLine1="            compatAdaptiveIcon.addToShortcutIntent(intent, null, mContext);"
         errorLine2="                               ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/ShortcutIntentBuilder.java"
+            file="src/main/java/org/prauga/contacts/ShortcutIntentBuilder.java"
             line="359"
             column="32"/>
     </issue>
@@ -832,7 +832,7 @@
         errorLine1="                mService.getString(R.string.exporting_contact_list_message, displayName);"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/vcard/ExportProcessor.java"
+            file="src/main/java/org/prauga/contacts/vcard/ExportProcessor.java"
             line="280"
             column="17"/>
         <location
@@ -848,7 +848,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                       ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="56"/>
         <location
@@ -864,7 +864,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                       ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="56"/>
         <location
@@ -880,7 +880,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                       ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="56"/>
         <location
@@ -896,7 +896,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                       ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="56"/>
         <location
@@ -912,7 +912,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                       ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="56"/>
         <location
@@ -928,7 +928,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                       ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="56"/>
         <location
@@ -944,7 +944,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                       ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="56"/>
         <location
@@ -960,7 +960,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                       ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="56"/>
         <location
@@ -976,7 +976,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                       ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="56"/>
         <location
@@ -992,7 +992,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                               ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="64"/>
         <location
@@ -1008,7 +1008,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                               ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="64"/>
         <location
@@ -1024,7 +1024,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                               ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="64"/>
         <location
@@ -1040,7 +1040,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                               ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="64"/>
         <location
@@ -1056,7 +1056,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                               ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="64"/>
         <location
@@ -1072,7 +1072,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                               ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="64"/>
         <location
@@ -1088,7 +1088,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                               ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="64"/>
         <location
@@ -1104,7 +1104,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                               ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="64"/>
         <location
@@ -1120,7 +1120,7 @@
         errorLine1="                getString(R.string.call_subject_limit, length, mLimit));"
         errorLine2="                                                               ~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/dialog/CallSubjectDialog.java"
+            file="src/main/java/org/prauga/contacts/dialog/CallSubjectDialog.java"
             line="372"
             column="64"/>
         <location
@@ -1136,7 +1136,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1152,7 +1152,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1168,7 +1168,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1184,7 +1184,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1200,7 +1200,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1216,7 +1216,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1232,7 +1232,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1248,7 +1248,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1264,7 +1264,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1280,7 +1280,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1296,7 +1296,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1312,7 +1312,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1328,7 +1328,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1344,7 +1344,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1360,7 +1360,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1376,7 +1376,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1392,7 +1392,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1408,7 +1408,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1424,7 +1424,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1440,7 +1440,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1456,7 +1456,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1472,7 +1472,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1488,7 +1488,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1504,7 +1504,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1520,7 +1520,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1536,7 +1536,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1552,7 +1552,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1568,7 +1568,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1584,7 +1584,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1600,7 +1600,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1616,7 +1616,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1632,7 +1632,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1648,7 +1648,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1664,7 +1664,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1680,7 +1680,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1696,7 +1696,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1712,7 +1712,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1728,7 +1728,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1744,7 +1744,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1760,7 +1760,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1776,7 +1776,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1792,7 +1792,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1808,7 +1808,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1824,7 +1824,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1840,7 +1840,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1856,7 +1856,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1872,7 +1872,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1888,7 +1888,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1904,7 +1904,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1920,7 +1920,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1936,7 +1936,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1952,7 +1952,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1968,7 +1968,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -1984,7 +1984,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2000,7 +2000,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2016,7 +2016,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2032,7 +2032,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2048,7 +2048,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2064,7 +2064,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2080,7 +2080,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2096,7 +2096,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2112,7 +2112,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2128,7 +2128,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2144,7 +2144,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2160,7 +2160,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2176,7 +2176,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2192,7 +2192,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2208,7 +2208,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2224,7 +2224,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2240,7 +2240,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2256,7 +2256,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2272,7 +2272,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2288,7 +2288,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2304,7 +2304,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2320,7 +2320,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2336,7 +2336,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2352,7 +2352,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2368,7 +2368,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2384,7 +2384,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2400,7 +2400,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2416,7 +2416,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1231"
             column="34"/>
         <location
@@ -2432,7 +2432,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2448,7 +2448,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2464,7 +2464,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2480,7 +2480,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2496,7 +2496,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2512,7 +2512,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2528,7 +2528,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2544,7 +2544,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2560,7 +2560,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2576,7 +2576,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2592,7 +2592,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2608,7 +2608,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2624,7 +2624,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2640,7 +2640,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2656,7 +2656,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2672,7 +2672,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2688,7 +2688,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2704,7 +2704,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2720,7 +2720,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2736,7 +2736,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2752,7 +2752,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2768,7 +2768,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2784,7 +2784,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2800,7 +2800,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2816,7 +2816,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2832,7 +2832,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2848,7 +2848,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2864,7 +2864,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2880,7 +2880,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2896,7 +2896,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2912,7 +2912,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2928,7 +2928,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2944,7 +2944,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2960,7 +2960,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2976,7 +2976,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -2992,7 +2992,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3008,7 +3008,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3024,7 +3024,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3040,7 +3040,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3056,7 +3056,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3072,7 +3072,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3088,7 +3088,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3104,7 +3104,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3120,7 +3120,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3136,7 +3136,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3152,7 +3152,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3168,7 +3168,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3184,7 +3184,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3200,7 +3200,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3216,7 +3216,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3232,7 +3232,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3248,7 +3248,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3264,7 +3264,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3280,7 +3280,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3296,7 +3296,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3312,7 +3312,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3328,7 +3328,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3344,7 +3344,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3360,7 +3360,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3376,7 +3376,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3392,7 +3392,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3408,7 +3408,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3424,7 +3424,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3440,7 +3440,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3456,7 +3456,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3472,7 +3472,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3488,7 +3488,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3504,7 +3504,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3520,7 +3520,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3536,7 +3536,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3552,7 +3552,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3568,7 +3568,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3584,7 +3584,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3600,7 +3600,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3616,7 +3616,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3632,7 +3632,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3648,7 +3648,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3664,7 +3664,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3680,7 +3680,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3696,7 +3696,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3712,7 +3712,7 @@
         errorLine1="            deleteToastMessage = getResources().getString("
         errorLine2="                                 ^">
         <location
-            file="src/main/java/com/android/contacts/ContactSaveService.java"
+            file="src/main/java/org/prauga/contacts/ContactSaveService.java"
             line="1234"
             column="34"/>
         <location
@@ -3724,11 +3724,11 @@
 
     <issue
         id="UnsafeImplicitIntentLaunch"
-        message="The intent action `android.intent.action.VIEW (used to start an activity)` matches the intent filter of a non-exported component `com.android.contacts.dialog.CallSubjectDialog` from a manifest. If you are trying to invoke this specific component via the action then you should make the intent explicit by calling `Intent.set{Component,Class,ClassName}`."
+        message="The intent action `android.intent.action.VIEW (used to start an activity)` matches the intent filter of a non-exported component `org.prauga.contacts.dialog.CallSubjectDialog` from a manifest. If you are trying to invoke this specific component via the action then you should make the intent explicit by calling `Intent.set{Component,Class,ClassName}`."
         errorLine1="        intent.setAction(Intent.ACTION_VIEW);"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/java/com/android/contacts/preference/AboutPreferenceFragment.java"
+            file="src/main/java/org/prauga/contacts/preference/AboutPreferenceFragment.java"
             line="99"
             column="9"/>
     </issue>

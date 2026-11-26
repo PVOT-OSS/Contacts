@@ -37,7 +37,7 @@
         android:id="@+id/contact_editor_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.android.contacts.editor.ContactEditorFragment"
+        android:name="org.prauga.contacts.editor.ContactEditorFragment"
         android:tag="editor_fragment"/>
 
 </LinearLayout>
