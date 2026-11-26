@@ -35,8 +35,8 @@ import org.prauga.contacts.activities.LicenseActivity;
  */
 public class AboutPreferenceFragment extends PreferenceFragment {
 
-    public static final String PRIVACY_POLICY_URL = "http://www.google.com/policies/privacy";
-    public static final String TERMS_OF_SERVICE_URL = "http://www.google.com/policies/terms";
+    public static final String PRIVACY_POLICY_URL =
+            "https://github.com/PVOT-OSS/Contacts/blob/main/PrivacyPolicy.md";
 
     public static AboutPreferenceFragment newInstance() {
         return new AboutPreferenceFragment();
@@ -65,7 +65,6 @@ public class AboutPreferenceFragment extends PreferenceFragment {
         licensePreference.setIntent(new Intent(getActivity(), LicenseActivity.class));
 
         final Preference privacyPolicyPreference = findPreference("pref_privacy_policy");
-        final Preference termsOfServicePreference = findPreference("pref_terms_of_service");
 
         final Preference.OnPreferenceClickListener listener =
                 new Preference.OnPreferenceClickListener() {
@@ -74,8 +73,6 @@ public class AboutPreferenceFragment extends PreferenceFragment {
                 try {
                     if (preference == privacyPolicyPreference) {
                         startActivityForUrl(PRIVACY_POLICY_URL);
-                    } else if (preference == termsOfServicePreference) {
-                        startActivityForUrl(TERMS_OF_SERVICE_URL);
                     }
                 } catch (ActivityNotFoundException ex) {
                     Toast.makeText(getContext(), getString(R.string.url_open_error_toast),
@@ -86,7 +83,6 @@ public class AboutPreferenceFragment extends PreferenceFragment {
         };
 
         privacyPolicyPreference.setOnPreferenceClickListener(listener);
-        termsOfServicePreference.setOnPreferenceClickListener(listener);
     }
 
     @Override
