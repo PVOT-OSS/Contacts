@@ -66,6 +66,7 @@ dependencies {
     implementation(libs.libphonenumber)
     implementation(libs.libphonenumber.geocoder)
     implementation(libs.material)
+    implementation(libs.pvot.design.system.views)
 
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.androidx.test.rules)

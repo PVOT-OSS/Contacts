@@ -23,9 +23,14 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven("https://pvot-oss.github.io/PvotLib/maven") {
+            content { includeGroup("com.prauga.pvot") }
+        }
     }
 }
 
 rootProject.name = "Contacts"
 
 include(":app")
+
+providers.gradleProperty("pvotLibDir").orNull?.let { includeBuild(it) }
