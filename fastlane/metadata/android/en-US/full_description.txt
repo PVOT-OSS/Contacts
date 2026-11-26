@@ -1,0 +1,10 @@
+Contacts keeps the people you know in one place, with no ads, no analytics and no tracking.
+
+• Browse, search and star the contacts from all your accounts, or from one account or label at a time.
+• Open a contact's card to call, message or email them, or use the actions other apps add.
+• Add and edit contacts, and link the entries for the same person from different accounts.
+• Organise contacts with labels.
+• Import and export vCard files, share contacts, and import from your SIM card.
+• Choose how names are sorted and shown.
+
+Contacts is based on the LineageOS Contacts app and is free software under the Apache License 2.0.
