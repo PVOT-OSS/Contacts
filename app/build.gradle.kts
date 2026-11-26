@@ -38,6 +38,13 @@ android {
     useLibrary("android.test.base")
     useLibrary("android.test.mock")
 
+    lint {
+        lintConfig = file("lint.xml")
+        baseline = file("lint-baseline.xml")
+        // UnusedResourceDetector crashes deserialising this app's resource store (AGP 9.5).
+        disable += setOf("UnusedResources", "UnusedIds")
+    }
+
     dependenciesInfo {
         includeInApk = false
         includeInBundle = false
