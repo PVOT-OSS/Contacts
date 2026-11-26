@@ -1,9 +1,8 @@
-/*
- * SPDX-FileCopyrightText: Saalim Quadri <danascape@gmail.com>
- * SPDX-License-Identifier: Apache-2.0
- */
+// SPDX-FileCopyrightText: 2026 Saalim Quadri <danascape@gmail.com>
+// SPDX-License-Identifier: Apache-2.0
 
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         google {
             content {
@@ -17,6 +16,8 @@ pluginManagement {
     }
 }
 
+plugins { id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0" }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -26,4 +27,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Contacts"
+
 include(":app")

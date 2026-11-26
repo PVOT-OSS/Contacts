@@ -1,25 +1,20 @@
-/*
- * SPDX-FileCopyrightText: Saalim Quadri <danascape@gmail.com>
- * SPDX-License-Identifier: Apache-2.0
- */
+// SPDX-FileCopyrightText: 2026 Saalim Quadri <danascape@gmail.com>
+// SPDX-License-Identifier: Apache-2.0
 
-plugins {
-    alias(libs.plugins.android.application)
-}
+plugins { alias(libs.plugins.pvot.android.application) }
 
 android {
     namespace = "org.prauga.contacts"
     testNamespace = "org.prauga.contacts.tests"
-    compileSdk { version = release(37) }
+
+    useLibrary("android.test.runner")
+    useLibrary("android.test.base")
+    useLibrary("android.test.mock")
 
     defaultConfig {
         applicationId = "org.prauga.contacts"
-        minSdk = 36
-        targetSdk = 36
         versionCode = 10734
         versionName = "1.7.34"
-
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -31,39 +26,25 @@ android {
             resValue("string", "contacts_sdn_provider_authority", "org.prauga.contacts.dev.sdn")
         }
         release {
+            isMinifyEnabled = true
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro",
+            )
             resValue("string", "application_id", "org.prauga.contacts")
             resValue("string", "photo_file_provider_authority", "org.prauga.contacts.files")
             resValue("string", "contacts_file_provider_authority", "org.prauga.contacts.files")
             resValue("string", "contacts_sdn_provider_authority", "org.prauga.contacts.sdn")
-            isMinifyEnabled = true
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
 
-    buildFeatures {
-        resValues = true
-    }
+    buildFeatures { resValues = true }
+}
 
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
-    }
+spotless { kotlin { targetExclude("src/main/java/org/prauga/contacts/sdn/**") } }
 
-    useLibrary("android.test.runner")
-    useLibrary("android.test.base")
-    useLibrary("android.test.mock")
-
-    lint {
-        lintConfig = file("lint.xml")
-        baseline = file("lint-baseline.xml")
-        // UnusedResourceDetector crashes deserialising this app's resource store (AGP 9.5).
-        disable += setOf("UnusedResources", "UnusedIds")
-    }
-
-    dependenciesInfo {
-        includeInApk = false
-        includeInBundle = false
-    }
+tasks.withType<dev.detekt.gradle.Detekt>().configureEach {
+    exclude("org/prauga/contacts/sdn/**")
 }
 
 dependencies {

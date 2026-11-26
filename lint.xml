@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-FileCopyrightText: 2026 Saalim Quadri <danascape@gmail.com>
+SPDX-License-Identifier: Apache-2.0
+-->
+<lint>
+    <issue id="MissingTranslation" severity="ignore" />
+    <!-- UnusedResourceDetector crashes deserialising this app's resource store. -->
+    <issue id="UnusedResources" severity="ignore" />
+    <issue id="UnusedIds" severity="ignore" />
+</lint>
