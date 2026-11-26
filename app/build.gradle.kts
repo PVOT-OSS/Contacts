@@ -13,8 +13,8 @@ android {
 
     defaultConfig {
         applicationId = "org.prauga.contacts"
-        versionCode = 10734
-        versionName = "1.7.34"
+        versionCode = rootProject.extra["versionCode"] as Int
+        versionName = rootProject.extra["versionName"] as String
     }
 
     buildTypes {

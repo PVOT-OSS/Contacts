@@ -7,3 +7,11 @@ plugins {
     alias(libs.plugins.detekt) apply false
     alias(libs.plugins.pvot.quality.spotless)
 }
+
+extra.apply {
+    val versionMajor = 1
+    val versionMinor = 0
+    val versionPatch = 0
+    set("versionCode", versionMajor * 10000 + versionMinor * 100 + versionPatch)
+    set("versionName", "$versionMajor.$versionMinor.$versionPatch")
+}
