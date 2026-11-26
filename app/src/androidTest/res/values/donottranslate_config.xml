@@ -15,6 +15,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="target_package_name">org.prauga.contacts</string>
+    <string name="target_package_name">org.prauga.contacts.dev</string>
 
 </resources>

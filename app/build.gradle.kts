@@ -23,10 +23,25 @@ android {
     }
 
     buildTypes {
+        debug {
+            applicationIdSuffix = ".dev"
+            resValue("string", "application_id", "org.prauga.contacts.dev")
+            resValue("string", "photo_file_provider_authority", "org.prauga.contacts.dev.files")
+            resValue("string", "contacts_file_provider_authority", "org.prauga.contacts.dev.files")
+            resValue("string", "contacts_sdn_provider_authority", "org.prauga.contacts.dev.sdn")
+        }
         release {
+            resValue("string", "application_id", "org.prauga.contacts")
+            resValue("string", "photo_file_provider_authority", "org.prauga.contacts.files")
+            resValue("string", "contacts_file_provider_authority", "org.prauga.contacts.files")
+            resValue("string", "contacts_sdn_provider_authority", "org.prauga.contacts.sdn")
             isMinifyEnabled = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
+    }
+
+    buildFeatures {
+        resValues = true
     }
 
     compileOptions {
